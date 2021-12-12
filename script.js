@@ -25,7 +25,6 @@ function startTime() {
 
         display.textContent = days + ":" + hours + ":" + minutes + ":" + seconds;
         
-
         if(finalSeconds < 0){
 
         }
