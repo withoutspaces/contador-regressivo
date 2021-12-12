@@ -24,8 +24,11 @@ body {
     background-position: center;
 }
 
-.hero-image {
-    background: url("./assets/2238722.webp") no-repeat ;
+body img{   
+    background-size: contain;
+    position: absolute;
+    color: greenyellow;
+
 }
 
 #timer {
