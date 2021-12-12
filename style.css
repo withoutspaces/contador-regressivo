@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'clockfont', sans-serif;
+    font-family: 'Readex Pro', 'clockfont', sans-serif;
     color: white;
 }
 
@@ -24,7 +24,7 @@ body {
 #timer {
     align-self: center;
     font-size: 15vw;
-    text-shadow:3px 7px 5px #8b0d18;
+    text-shadow:3px 3px 3px #8b0d18;
     position: relative;
 
 }
@@ -36,7 +36,6 @@ body {
 }
 
 .info-buttons {
-    
     display: flex;
     align-items: center;
     justify-content: center; 
