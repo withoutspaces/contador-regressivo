@@ -1,14 +1,15 @@
 
 function startTime() {
     let targetDate = new Date("december 18, 2021").getTime();
+
     
     let days, hours, minutes, seconds;
-    let hoursToGetCar = 57600;
-
+    let hoursToGetCar = 64800 * 1000;
+    
     setInterval(() => {
         let currentDate = new Date().getTime();
-        let finalSeconds = (targetDate - currentDate + hoursToGetCar) / 1000;
-
+        let finalSeconds = ((targetDate - currentDate) + hoursToGetCar) / 1000;
+        
         days = parseInt(finalSeconds/86400);
         finalSeconds = finalSeconds % 86400;
 

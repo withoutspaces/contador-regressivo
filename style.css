@@ -27,8 +27,6 @@ body {
 body img{   
     background-size: contain;
     position: absolute;
-    color: greenyellow;
-
 }
 
 #timer {
