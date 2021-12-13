@@ -30,12 +30,14 @@ body img{
 }
 
 #timer {
+    flex-direction: column;
     align-self: center;
     font-size: 15vw;
     text-shadow:3px 3px 3px #8b0d18;
     position: relative;
 
 }
+
 
 #footer {
     margin-bottom: 10px;

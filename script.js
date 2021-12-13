@@ -4,7 +4,7 @@ function startTime() {
 
     
     let days, hours, minutes, seconds;
-    let hoursToGetCar = 64800 * 1000;
+    let hoursToGetCar = 18 * 3600 * 1000;
     
     setInterval(() => {
         let currentDate = new Date().getTime();
