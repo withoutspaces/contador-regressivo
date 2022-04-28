@@ -1,6 +1,6 @@
 
 function startTime() {
-    let targetDate = new Date("december 18, 2021").getTime();
+    let targetDate = new Date("may 07, 2022").getTime();
 
     
     let days, hours, minutes, seconds;
@@ -24,7 +24,7 @@ function startTime() {
         minutes = minutes >= 10 ? minutes : "0" + minutes;
         seconds = seconds >= 10 ? seconds : "0" + seconds;
 
-        display.textContent = days + ":" + hours + ":" + minutes + ":" + seconds;
+        display.innerHTML = `<p>${days}:${hours}:${minutes}:${seconds}  </p>`
         
         if(finalSeconds < 0){
             display.textContent = "Let's bora!"
